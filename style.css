@@ -1,0 +1,96 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #e4b124;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    color: #6C593C;
+}
+
+.sub {
+    display: inline-block;
+    margin-left: 100px;
+    color: #6C593C;
+}
+
+#score {
+    margin-left: calc((100vw - 600px)/2);
+}
+
+#max {
+    margin-left: calc((100vw - 600px)/3);
+}
+
+.game {
+    background: white;
+    display: inline-block;
+    /* margin-top: 100px; */
+    margin-left: calc((100vw - 600px)/2);
+    width: 590px;
+    border-radius: 10px;
+}
+
+.title {
+    width: 128px;
+    height: 128px;
+    background: #c8cbbf;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 8px;
+    color: white;
+}
+
+.title>div {
+    width: 128px;
+    height: 128px;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 20px;
+    vertical-align: text-bottom;
+    line-height: 2.5em;
+    /* padding-top: 30px; */
+}
+
+.color-for-2 {
+    background: #D8CC8B;
+}
+
+.color-for-4 {
+    background: #C1B278;
+}
+
+.color-for-8 {
+    background: #E9B77B;
+}
+
+.color-for-16 {
+    background: #DA9B60;
+}
+
+.color-for-32 {
+    background: rgb(218, 121, 60);
+}
+
+.color-for-64 {
+    background: rgb(169, 77, 24);
+}
+
+.color-for-128 {
+    background: rgb(218, 176, 63);
+}
+
+.color-for-256 {
+    background: #FCCD4D;
+}
+
+.color-for-512 {
+    background: #F9F471;
+}
+
+.color-for-512 {
+    background: rgb(245, 239, 49);
+}
